@@ -1,0 +1,113 @@
+/* Global Styles for the
+/* Karen Stevens Website.
+/* Coded with love by
+/* Randy Greene of RG Creative
+/* http://discoverRG.com
+/* March 2014
+
+
+/* GENERAL RESETS */
+body {
+	background: #211e1f;
+	font-family: Arial, sans-serif;
+}
+p small {
+	color: #ccc;
+}
+h1, h2, h3, h4 {
+	font-family: 'Utopia Std', Georgia, serif;
+	margin-top: 0;
+}
+h1 {
+	margin-bottom: 0;
+	font-size: 4.2em;
+	letter-spacing: -.02em;
+}
+h2 {
+	font-size: 2em;
+}
+.btn.btn-small  {
+	color: #ccc;
+	background: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.mainBody {
+	clear: both;
+	margin: 50px auto;
+}
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	height: 360px;
+	background: #698596 url('../img/ra-bg.png');
+}
+
+/* SVG LOGO */
+svg#logo {
+	width: 360px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+svg#logo > g {
+	width: 100%;
+}
+path {
+	fill: #ffffff;
+}
+
+/* MAINCONTENT */
+div.content-box {
+	display: inline-block;
+	padding: 25px;
+	background: #ECECEA;
+	border-radius: 6px;
+	box-shadow: 0 0 15px 2px #333;
+}
+#profile-pic {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 8px #ccc;
+}
+#mainContent {}
+a.btn {
+	display: block;
+	margin: 10px 0;
+	background: #698596;
+	width: 150px;
+	color: #ECECEA;
+	text-align: center;
+	border-radius: 4px;
+	transition: all .2s ease-in;
+}
+a.btn:hover {
+	background: #211e1f;
+	color: #ECECEA;
+}
+
+
+@media all and (max-width: 991px) {
+	h1, h2 {
+		text-align: center;
+	}
+	a.btn {
+		margin: 10px auto;
+	}
+}
+
+@media all and (max-width: 768px) {
+	
+}
+
+@media all and (max-width: 480px) {
+	.pull-left, .pull-right {
+		float: none !important;
+		text-align: center;
+	}
+}
+
